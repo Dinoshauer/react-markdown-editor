@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+
+#input {
+  padding: 10px;
+  font-family: monospace;
+  background-color: #f8f8f8;
+}
+
+#output, #input {
+  width: 50%;
+  margin: 0;
+  padding: 10px;
+  color: #222;
+}
+
+pre>code {
+  padding: 10px;
+  font-family: monospace;
+  background-color: #E5E5E5;
+}
+
+textarea:focus { outline: 0;}
